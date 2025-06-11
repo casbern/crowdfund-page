@@ -1,1 +1,14 @@
 @import "tailwindcss";
+
+@theme {
+  --color-call-action: #3CB3AB;
+  --color-call-action-hover: #147A73;
+  --color-text: ##7A7A7A;
+  --color-inactive: #2F2F2F;
+  --color-background: #FAFAFA;
+  --color-gray-100: #B1B1B1;
+  --color-gray-200: #929292;
+  --color-gray-300: #444444;
+
+  --font-comissioner: 'Commissioner', sans-serif;
+}
