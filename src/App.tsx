@@ -1,11 +1,11 @@
-
+import Header from "./components/Header"
 
 function App() {
 
   return (
-    <h1 className="text-call-action font-comissioner text-4xl">
-      hello world
-    </h1>
+    <div className="bg-background min-h-screen">
+      <Header />
+    </div>
   )
 }
 
