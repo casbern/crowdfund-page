@@ -42,9 +42,62 @@ function App() {
         </div>
 
         <div className="border border-border bg-white rounded-lg mb-6 p-12">
-          <h1 className="text-center text-2xl font-bold text-title">Mastercraft Bamboo Monitor Riser</h1>
-          <p className="text-center text-txt mt-4">A beautiful & handcrafted monitor stand to reduce neck and eye strain.</p>
+          <div className="flex flex-col md:flex-row items-center justify-between mb-6 md:pr-16">
+            <div className="flex flex-col gap-2">
+              <span className="text-3xl font-bold">$89,914</span>
+              <span className="text-txt text-sm">of $100,000 backed</span>
+            </div>
+
+            <svg className="hidden md:inline" width="1" height="63" viewBox="0 0 1 63" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <rect opacity="0.15" width="1" height="63" fill="black"/>
+            </svg>
+
+            <svg className="md:hidden mt-6 mb-6" width="80" height="1" viewBox="0 0 80 1" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <rect id="Rectangle" opacity="0.15" width="80" height="1" fill="black"/>
+            </svg>
+
+
+            <div className="flex flex-col gap-2">
+              <span className="text-3xl font-bold">5,007</span>
+              <span className="text-txt text-sm">total backers</span>
+            </div>
+
+            <svg className="hidden md:inline" width="1" height="63" viewBox="0 0 1 63" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <rect opacity="0.15" width="1" height="63" fill="black"/>
+            </svg>
+
+            <svg className="md:hidden mt-6 mb-6" width="80" height="1" viewBox="0 0 80 1" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <rect id="Rectangle" opacity="0.15" width="80" height="1" fill="black"/>
+            </svg>
+            
+            <div className="flex flex-col gap-2">
+              <span className="text-3xl font-bold">56</span>
+              <span className="text-txt text-sm">days left</span>
+            </div>
+          </div>
+
+    
+          <svg className="max-w-full" width="634" height="12" viewBox="0 0 634 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <rect opacity="0.05" width="634" height="12" rx="6" fill="#2F2F2F"/>
+            <rect width="496" height="12" rx="6" fill="#3CB3AB"/>
+          </svg>
+
         </div>
+
+        <div className="border border-border bg-white rounded-lg mb-6 p-12">
+          <h2 className="text-xl font-bold mb-8">About this project</h2>
+          <p className="text-txt">
+            The Mastercraft Bamboo Monitor Riser is a sturdy and stylish 
+            platform that elevates your screen to a more comfortable viewing height. 
+            Placing your monitor at eye level has the potential to improve your posture 
+            and make you more comfortable while at work, helping you stay focused on the task at hand.
+          </p>
+          <p className="text-txt mt-7">
+            Featuring artisan craftsmanship, the simplicity of design creates extra desk space 
+            below your computer to allow notepads, pens, and USB drives to be stored under the stand.
+          </p>
+        </div>
+
       </div>
     </div>
   )
