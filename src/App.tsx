@@ -12,7 +12,7 @@ function App() {
       <Header />
 
       <div className="max-w-[730px] m-6 md:m-auto  relative bottom-15">
-        <div className="border border-border bg-white rounded-lg mb-6 p-12">
+        <div className="border border-border bg-white rounded-lg mb-6 p-7 md:p-12">
           <div className="absolute -top-7 left-1/2 -translate-x-1/2">
             <img src={icon} alt="icon"/>
           </div>
@@ -42,7 +42,7 @@ function App() {
           </div>
         </div>
 
-        <div className="border border-border bg-white rounded-lg mb-6 p-12">
+        <div className="border border-border bg-white rounded-lg mb-6 p-7 md:p-12">
           <div className="flex flex-col md:flex-row items-center justify-between mb-6 md:pr-16">
             <div className="flex flex-col gap-2">
               <span className="text-3xl font-bold">$89,914</span>
@@ -85,7 +85,7 @@ function App() {
 
         </div>
 
-        <div className="border border-border bg-white rounded-lg mb-6 p-12">
+        <div className="border border-border bg-white rounded-lg mb-6 p-7 md:p-12">
           <h2 className="text-xl font-bold mb-8">About this project</h2>
           <p className="text-txt">
             The Mastercraft Bamboo Monitor Riser is a sturdy and stylish 

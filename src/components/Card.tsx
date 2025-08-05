@@ -12,7 +12,7 @@ const Card = ({title, pledge, description, left}: CardProps) => {
     <div className="border border-border rounded-lg p-9 mb-6">
       <div className="flex flex-col md:flex-row items-start md:items-center md:justify-between mb-6">
         <h3 className="text-lg font-bold">{title}</h3>
-        <span className="text-sm font-medium text-call-action">Pledge $${pledge} or more</span>
+        <span className="text-sm font-medium text-call-action">Pledge ${pledge} or more</span>
       </div>
 
       <p className="text-txt mb-6 text-base font-normal">
