@@ -3,9 +3,14 @@ import Button  from "./components/Button"
 
 import icon from "./assets/icon.svg"
 import bookmarkIcon from "./assets/bookmark-icon.svg"
+import bookmarkIconActive from "./assets/bookmark-icon-active.svg"
 import Card from "./components/Card"
+import { useState } from "react"
 
 function App() {
+
+  const [active, setActive] = useState(false)
+
 
   return (
     <div className="bg-background min-h-screen">
@@ -23,10 +28,16 @@ function App() {
               
             <a
               href="#"
-              className="hidden md:flex relative items-center bg-gray-50 rounded-4xl text-txt font-bold pl-[72px] pr-6 h-[56px]"
+              onClick={() => setActive(!active)}
+              className={`
+                "hidden md:flex relative items-center bg-gray-50 rounded-4xl font-bold pl-[72px] pr-6 py-4 h-[56px]"
+                 ${active ? "text-call-action" : "text-txt"}`}
             >
-              <span className="absolute left-0 flex items-center justify-center w-[56px] h-[56px] rounded-full bg-black">
-                <img src={bookmarkIcon} alt="Bookmark Icon" />
+              <span className="absolute left-0 flex items-center justify-center w-[56px] h-[56px] rounded-full">
+                <img 
+                  src={active ? bookmarkIconActive : bookmarkIcon} 
+                  alt="Bookmark Icon" 
+                />
               </span>
               Bookmark
             </a>
