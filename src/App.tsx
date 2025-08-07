@@ -33,21 +33,13 @@ function App() {
                 "hidden md:flex relative items-center bg-gray-50 rounded-4xl font-bold pl-[72px] pr-6 py-4 h-[56px]"
                  ${active ? "text-call-action" : "text-txt"}`}
             >
-              <span className="absolute left-0 flex items-center justify-center w-[56px] h-[56px] rounded-full">
+              <span className="absolute left-0 top-0 flex items-center justify-center w-[56px] h-[56px] rounded-full">
                 <img 
                   src={active ? bookmarkIconActive : bookmarkIcon} 
                   alt="Bookmark Icon" 
                 />
               </span>
-              Bookmark
-            </a>
-
-        
-             <a
-              href="#"
-              className="flex md:hidden items-center justify-center bg-gray-50 rounded-full w-[56px] h-[56px]"
-            >
-              <img src={bookmarkIcon} alt="Bookmark Icon" />
+              {active ? "Bookmarked" : "Bookmark"}
             </a>
 
           </div>
